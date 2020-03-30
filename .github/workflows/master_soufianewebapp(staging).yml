@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'soufianewebapp(staging)'
         slot-name: 'staging'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_b1ec323e4cf34daab15543a5a48e65e1 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_0fe8b04fdd494c40b6f6a1749a7f88a2 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
