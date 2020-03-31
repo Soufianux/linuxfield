@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'soufianewebappprivate'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e62c4c4d525b40649dd7c289ec9fc7dc }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_016b5b702636405fb3cbada14e639131 }}
         package: .
